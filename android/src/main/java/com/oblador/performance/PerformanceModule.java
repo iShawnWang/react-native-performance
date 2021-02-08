@@ -4,7 +4,6 @@ import android.os.Process;
 import android.os.SystemClock;
 import android.system.Os;
 import android.system.OsConstants;
-import androidx.annotation.NonNull;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
@@ -29,7 +28,7 @@ public class PerformanceModule extends ReactContextBaseJavaModule {
     private boolean eventsBuffered = true;
     private static Map<String, Long> markBuffer = new HashMap();
 
-    public PerformanceModule(@NonNull final ReactApplicationContext reactContext) {
+    public PerformanceModule( final ReactApplicationContext reactContext) {
         super(reactContext);
 
         setupMarkerListener();
@@ -100,7 +99,6 @@ public class PerformanceModule extends ReactContextBaseJavaModule {
     }
 
     @Override
-    @NonNull
     public String getName() {
       return PERFORMANCE_MODULE;
     }
