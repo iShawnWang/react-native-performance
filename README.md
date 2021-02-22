@@ -1,4 +1,7 @@
-# Support React Native 0.59.x, Fork of https://github.com/oblador/react-native-performance 
+# Fork of https://github.com/oblador/react-native-performance 
+- Support React Native 0.59.x remove androidx library dependence
+
+---
 
 # React Native Performance API
 
