@@ -1,3 +1,5 @@
+# Support React Native 0.59.x, Fork of https://github.com/oblador/react-native-performance 
+
 # React Native Performance API
 
 This is an implementation of the [`Performance` API](https://developer.mozilla.org/en-US/docs/Web/API/Performance) for React Native based on the [User Timing Level 3](https://www.w3.org/TR/user-timing-3/) and [Performance Timeline Level 2](https://www.w3.org/TR/performance-timeline-2/) drafts.
